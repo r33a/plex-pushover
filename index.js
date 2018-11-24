@@ -66,4 +66,4 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
     }
 });
 
-app.listen(process.env['PLEXPUSH_PORT'] || 80);
+app.listen(process.env['PLEXPUSH_PORT'] || 10000);
