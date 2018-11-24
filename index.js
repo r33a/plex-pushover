@@ -65,3 +65,5 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
         res.sendStatus(501);
     }
 });
+
+const port = process.env.PORT || 11000;
