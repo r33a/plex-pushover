@@ -66,4 +66,7 @@ app.post('/', upload.single('thumb'), function (req, res, next) {
     }
 });
 
-app.listen(process.env['PLEXPUSH_PORT'] || 11000);
+const PORT = process.env.PORT || 10000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
