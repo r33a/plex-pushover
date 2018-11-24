@@ -2,7 +2,12 @@
   "name": "plex-notifications",
   "version": "0.0.1",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.11"
+  },
   "dependencies": {
     "express": "^4.14.0",
     "multer": "^1.2.1",
