@@ -9,7 +9,7 @@ var push = require('pushover-notifications');
 
 var p = new push( {
     user: process.env['PUSHOVER_USER'],
-    token: process.env['artmsbvpe3qwvznw3oi3pumggu1ruw'],
+    token: process.env['PUSHOVER_TOKEN'],
 });
 
 app.get('*', function (req, res) {
