@@ -8,8 +8,8 @@ var app = express();
 var push = require('pushover-notifications');
 
 var p = new push( {
-    user: process.env['PUSHOVER_USER'],
-    token: process.env['PUSHOVER_TOKEN'],
+    user: process.env['uaaiumtgmcu7tjdomswg9m1eh25k7m'],
+    token: process.env['artmsbvpe3qwvznw3oi3pumggu1ruw'],
 });
 
 app.get('*', function (req, res) {
