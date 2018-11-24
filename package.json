@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "PUSHOVER_USER=uaaiumtgmcu7tjdomswg9m1eh25k7m PUSHOVER_TOKEN=artmsbvpe3qwvznw3oi3pumggu1ruw node index.js"
   },
   "engines": {
     "node": "8.11"
